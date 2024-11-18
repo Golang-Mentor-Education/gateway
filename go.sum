@@ -1,4 +1,9 @@
+github.com/Golang-Mentor-Education/auth v0.0.0-20241118114051-caacf82a8951 h1:lczRVNRb6VOyaykTRbz1O5mChgxSQ10UicengmrHcjc=
+github.com/Golang-Mentor-Education/auth v0.0.0-20241118114051-caacf82a8951/go.mod h1:UpNAg2gORMw2qXGk2/zlVCDNwdxcmdxa8OyIxeObwqM=
+github.com/Golang-Mentor-Education/auth v0.0.1 h1:2iaYj1+SCAGGZEWkoZ3PS76PG8BhQai5vM8zCrhqbio=
+github.com/Golang-Mentor-Education/auth v0.0.1/go.mod h1:iGvrkSTU92XF1PDhjbd89UNoHKPwBEeYXPbtT4Nadns=
 github.com/samber/lo v1.47.0 h1:z7RynLwP5nbyRscyvcD043DWYoOcYRv3mV8lBeqOCLc=
 github.com/samber/lo v1.47.0/go.mod h1:RmDH9Ct32Qy3gduHQuKJ3gW1fMHAnE/fAzQuf6He5cU=
 golang.org/x/text v0.16.0 h1:a94ExnEXNtEwYLGJSIUxnWoxoRz/ZcCsV63ROupILh4=
 golang.org/x/text v0.16.0/go.mod h1:GhwF1Be+LQoKShO3cGOHzqOgRrGaYc9AvblQOmPVHnI=
+golang.org/x/text v0.18.0/go.mod h1:BuEKDfySbSR4drPmRPG/7iBdf8hvFMuRexcpahXilzY=
