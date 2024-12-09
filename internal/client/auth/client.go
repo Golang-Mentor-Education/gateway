@@ -2,6 +2,7 @@ package auth
 
 import (
 	"context"
+	"fmt"
 	"github.com/Golang-Mentor-Education/auth/pkg/auth"
 	"google.golang.org/grpc"
 )
@@ -19,13 +20,25 @@ func New() *Client {
 	return &Client{client: client}
 }
 
-func (c *Client) DoLogin() string {
-	token, err := c.client.Login(context.Background(), &auth.LoginIn{
-		Username: "qwe",
-		Password: "123",
+func (c *Client) Login(username, password string) (string, error) {
+	resp, err := c.client.Login(context.Background(), &auth.LoginIn{
+		Username: username,
+		Password: password,
 	})
 	if err != nil {
-		panic(err)
+		return "", fmt.Errorf("failed to login: %w", err)
 	}
-	return token.Token
+	return resp.Token, nil
+}
+
+func (c *Client) Signup(username, email, password string) error {
+	_, err := c.client.Signup(context.Background(), &auth.SignupIn{
+		Username: username,
+		Email:    email,
+		Password: password,
+	})
+	if err != nil {
+		return fmt.Errorf("failed to signup: %w", err)
+	}
+	return nil
 }
