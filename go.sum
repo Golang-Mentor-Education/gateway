@@ -2,6 +2,8 @@ github.com/Golang-Mentor-Education/auth v0.0.1 h1:2iaYj1+SCAGGZEWkoZ3PS76PG8BhQa
 github.com/Golang-Mentor-Education/auth v0.0.1/go.mod h1:iGvrkSTU92XF1PDhjbd89UNoHKPwBEeYXPbtT4Nadns=
 github.com/Golang-Mentor-Education/auth v0.0.2 h1:Ng3RUUzSCaJrmqLFCfy4JWirur13Mc7mN4y2q2x+ia0=
 github.com/Golang-Mentor-Education/auth v0.0.2/go.mod h1:1TjL59/n9oyKlABxH9g11HxTP1ySwOzp1CvPePKM78U=
+github.com/Golang-Mentor-Education/auth v0.0.3 h1:KBJIZLyvo/nzZkoyeOR8OaSfm9du/K7EvBXGRB8QdRY=
+github.com/Golang-Mentor-Education/auth v0.0.3/go.mod h1:SRZGR+fmMBRqOOF4QH25+nVtCwaCkAC+pa91Ui6Utn8=
 github.com/golang/protobuf v1.5.4 h1:i7eJL8qZTpSEXOPTxNKhASYpMn+8e5Q6AdndVa1dWek=
 github.com/golang/protobuf v1.5.4/go.mod h1:lnTiLA8Wa4RWRcIUkrtSVa5nRhsEGBg48fD6rSs7xps=
 github.com/google/go-cmp v0.6.0 h1:ofyhxvXcZhMsU5ulbFiLKl/XBFqE1GSq7atu8tAmTRI=

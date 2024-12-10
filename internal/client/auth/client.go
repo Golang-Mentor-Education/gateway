@@ -20,10 +20,11 @@ func New() *Client {
 	return &Client{client: client}
 }
 
-func (c *Client) Login(username, password string) (string, error) {
+func (c *Client) Login(username, password, email string) (string, error) {
 	resp, err := c.client.Login(context.Background(), &auth.LoginIn{
 		Username: username,
 		Password: password,
+		Email:    email,
 	})
 	if err != nil {
 		return "", fmt.Errorf("failed to login: %w", err)

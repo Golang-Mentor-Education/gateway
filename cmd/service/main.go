@@ -18,6 +18,7 @@ import (
 type LoginRequest struct {
 	Username string `json:"username"`
 	Password string `json:"password"`
+	Email    string `json:"email"`
 }
 
 // Структура для ответа логина
@@ -112,7 +113,7 @@ func main() {
 		}
 
 		// Вызываем auth сервис
-		token, err := authC.Login(loginReq.Username, loginReq.Password)
+		token, err := authC.Login(loginReq.Username, loginReq.Password, loginReq.Email)
 		if err != nil {
 			w.WriteHeader(http.StatusInternalServerError)
 			w.Write([]byte(err.Error()))

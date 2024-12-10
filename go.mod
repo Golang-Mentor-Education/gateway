@@ -3,7 +3,7 @@ module github.com/Golang-Mentor-Education/gateway
 go 1.22.8
 
 require (
-	github.com/Golang-Mentor-Education/auth v0.0.2
+	github.com/Golang-Mentor-Education/auth v0.0.3
 	google.golang.org/grpc v1.68.1
 )
 
